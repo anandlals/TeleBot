@@ -29,7 +29,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 TELEPIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
-    else "https://telegra.ph/file/92cfbab6598148837c2e4.jpg"
+    else "https://telegra.ph/file/463de8ff063587201069b.mp4"
 )
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
@@ -39,13 +39,14 @@ MESAG = (
     if CUSTOM_PMPERMIT
     else "`TeleBot PM security! Please wait for me to approve you. 😊"
 )
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot User"
-USER_BOT_WARN_ZERO = "`I had warned you not to spam. Now you have been blocked and reported until further notice.`\n\n**GoodBye!** "
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Telebot User"
+USER_BOT_WARN_ZERO = "`I had warned you don't disturb. Now you can't send message to me because you are blocked aromatically and reported until further notice.`\n\n**GoodBye!** By @EliteDarkRay "
 USER_BOT_NO_WARN = (
-    "**PM Security ~ TeleBot**\n\nNice to see you here, but  "
-    "[{}](tg://user?id={}) is currently unavailable.\nThis is an automated message.\n\n"
+    "**Personal Message Security of Anand LAL **\n\nNice to see you here, but  "
+    "[{}](tg://user?id={}) is currently unavailable Please don't disturb me I will come back soon now you cannot me.\nThis is an artificial intelligence message.\n\n"
     "{}\n\n**You have** `{}/{}` **warnings...**"
-    "\n\n   ~ Thank You."
+    "\n\n   ~ If you have any thing to say please write down definitely I will answer later."
+    "\n\n  **by @EliteDarkRay**
 )
 
 
